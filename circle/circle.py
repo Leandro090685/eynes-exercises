@@ -5,4 +5,11 @@ class Circle():
         if radius <= 0:
             raise ValueError("El radio debe ser un valor positivo y mayor que cero.")
         self._radius = radius
-        
+
+    def get_radius(self):
+        return self._radius
+
+    def set_radius(self, radius):
+        if radius <= 0:
+            raise ValueError("El radio debe ser un valor positivo y mayor que cero.")
+        self._radius = radius
