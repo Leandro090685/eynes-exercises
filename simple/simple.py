@@ -10,3 +10,7 @@ def simple_list():
         list_of_dicts.append(dict_entry)
     
     return list_of_dicts
+
+def sort_list(dicts):
+    sorted_list = sorted(dicts, key=lambda x: x["age"])
+    return sorted_list
